@@ -1,0 +1,207 @@
+:root {
+    --logo-color: #000000;
+    --primary-text-color: #212122;
+    --secondary-text-color: #757575;
+    --footer-text-color: #FFFFFF;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --primary-bgc-color: #FFFFFF;
+    --section-bgc-color: #E5E5E5;
+    --main-footers-bgc-color: #2F303A;
+    --btn-bg-color: #2196F3;
+    --sec-studio-btn-bgc: #F5F4FA;
+}
+body {
+    background: var(--primary-bgc-color);
+    font-family: roboto, sans-serif;  
+}
+/* header */
+.logo {
+    color: var(--logo-color);
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+}
+.logo-part {
+    color: var(--accent-color);
+}
+ul {
+    list-style: none;
+}
+a:link {
+    text-decoration: none;
+    
+}
+.site-nav a {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+    
+.site-nav a:hover, .site-nav a:focus {
+    color: var(--accent-color);}
+    
+.header-contacts a {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-contacts a:hover,
+.header-contacts a:focus {
+    color: var(--accent-color);
+}
+/* main */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.main-title {
+    background-color:var(--main-footers-bgc-color);
+    color: var(--footer-text-color);
+}
+.btn {
+    background-color: var(--btn-bg-color);
+    color: var(--footer-text-color);
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+}
+.section {
+    background: var(--section-bgc-color);
+
+}
+.section-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.subtitle {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.text {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.section-team {
+    background-color: var(--sec-studio-btn-bgc);
+}
+.subtitle-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.desc {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.img {
+    background-color: var(--primary-bgc-color);
+}
+/* footer */
+.address {
+    background-color:var(--main-footers-bgc-color);
+}
+.footer-logo {
+    color: var(--footer-text-color);
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}   
+.footer-logo-part {
+    color: var(--accent-color);
+}
+.footer-address {
+    color: var(--footer-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-link a {
+    color: var(--footer-link-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;    
+}
+
+/* portfolio */
+.btn-port {
+    background-color: var(--sec-studio-btn-bgc);
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.btn-port:hover,
+.btn-port:active {
+    background: var(--btn-bg-color);
+    color: var(--footer-text-color);
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.port-subtitle {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.port-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
