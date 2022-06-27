@@ -146,7 +146,7 @@ a:link {
 }
 .hero-title {
     margin-top: 0;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;    
@@ -163,8 +163,6 @@ a:link {
     color: var(--footer-text-color);
     text-align: center;
     align-items: center;
-    
-    padding-bottom: 205px;
     
 }
 
@@ -193,9 +191,7 @@ a:link {
     padding-top: 89px;
     padding-bottom: 94px;
 
-    background: var(--section-bgc-color);
-
-}
+  }
 .section-title {
     margin: 0;
     padding: 0;
@@ -227,18 +223,15 @@ a:link {
 }
 
 .subtitle {
-    margin-top: 0;
-    margin-bottom: 10;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 .section-recourse {
     padding-bottom: 94px;
-    background: var(--section-bgc-color);
+   
 
 }
 .resourse {
@@ -248,7 +241,8 @@ a:link {
     margin-left: 30px;
 }
 .text {
-    margin-top: 10;
+    box-sizing: content-box;
+    margin-top: 10px;
     margin-bottom: 0;
     color: var(--secondary-text-color);
     font-size: 14px;
@@ -280,13 +274,13 @@ a:link {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 .team {
     margin-bottom: 50px;
 }
 .desc {
+    
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -300,6 +294,11 @@ a:link {
 }
 .img +.img {
     margin-left: 30px;
+}
+.team-box {
+    padding-bottom: 30px;
+    padding-top: 30px;
+
 }
 /* footer */
 .footer {
@@ -334,6 +333,9 @@ a:link {
     letter-spacing: 0.03em;
 }
 .footer-link a {
+    display: block;
+    margin-top: 9px;
+
     color: var(--footer-link-color);
     font-family: 'Roboto';
     font-style: normal;
@@ -345,7 +347,7 @@ a:link {
 
 /* portfolio */
 .section-portfolio {
-    background: var(--section-bgc-color);
+    
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -370,7 +372,7 @@ a:link {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    
     border-radius: 4px;
     border-color: transparent;
 
@@ -385,6 +387,7 @@ a:link {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .port-list {
     display: flex;
@@ -405,10 +408,11 @@ a:link {
 }
 
 .port-img {
+    display: block;
     
     max-width: 100%;
     height: auto;
-    vertical-align: bottom;
+    
 }
 .port-box {
     box-sizing: border-box;
